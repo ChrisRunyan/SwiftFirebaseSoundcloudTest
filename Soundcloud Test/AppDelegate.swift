@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  Soundcloud Test
 //
-//  Created by Christopher Runyan on 5/10/18.
+//  Created by Christopher Runyan on 9/3/18 based off tutorial by James Dacombe at appcoda.com.
 //  Copyright © 2018 Christopher Runyan. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 

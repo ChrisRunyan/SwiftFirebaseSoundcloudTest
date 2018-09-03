@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ABF99AEC0CF2D33ED0561D6 /* Pods_Soundcloud_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C805E95BACE3A87E3681C7 /* Pods_Soundcloud_TestTests.framework */; };
+		43A3C4B89557F54E9EB7D66B /* Pods_Soundcloud_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864FD270A39F2E6F60FA2A08 /* Pods_Soundcloud_Test.framework */; };
+		4530157C213DAE200005C3A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4530157B213DAE200005C3A0 /* GoogleService-Info.plist */; };
 		453EEA4320A49B7A005C8E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EEA4220A49B7A005C8E77 /* AppDelegate.swift */; };
-		453EEA4520A49B7A005C8E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EEA4420A49B7A005C8E77 /* ViewController.swift */; };
 		453EEA4820A49B7A005C8E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453EEA4620A49B7A005C8E77 /* Main.storyboard */; };
 		453EEA4A20A49B7C005C8E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453EEA4920A49B7C005C8E77 /* Assets.xcassets */; };
 		453EEA4D20A49B7C005C8E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453EEA4B20A49B7C005C8E77 /* LaunchScreen.storyboard */; };
 		453EEA5820A49B7C005C8E77 /* Soundcloud_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EEA5720A49B7C005C8E77 /* Soundcloud_TestTests.swift */; };
 		453EEA6320A49B7C005C8E77 /* Soundcloud_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EEA6220A49B7C005C8E77 /* Soundcloud_TestUITests.swift */; };
+		45AB5B89213DB5D400258FA7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AB5B88213DB5D400258FA7 /* SignUpViewController.swift */; };
+		45AB5B8B213DB68000258FA7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AB5B8A213DB68000258FA7 /* LogInViewController.swift */; };
+		45AB5B8D213DB6B300258FA7 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AB5B8C213DB6B300258FA7 /* ResetPasswordViewController.swift */; };
+		45AB5B8F213DBAFA00258FA7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AB5B8E213DBAFA00258FA7 /* HomeViewController.swift */; };
+		CBB540531A78FB795B715292 /* Pods_Soundcloud_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EA897BB93EEFC1C5481ED6 /* Pods_Soundcloud_TestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		131D711024D522CEEE9023B8 /* Pods-Soundcloud TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundcloud TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soundcloud TestUITests/Pods-Soundcloud TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4530157B213DAE200005C3A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		453EEA3F20A49B7A005C8E77 /* Soundcloud Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soundcloud Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453EEA4220A49B7A005C8E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		453EEA4420A49B7A005C8E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		453EEA4720A49B7A005C8E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		453EEA4920A49B7C005C8E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		453EEA4C20A49B7C005C8E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,18 @@
 		453EEA5E20A49B7C005C8E77 /* Soundcloud TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soundcloud TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453EEA6220A49B7C005C8E77 /* Soundcloud_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soundcloud_TestUITests.swift; sourceTree = "<group>"; };
 		453EEA6420A49B7C005C8E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45AB5B88213DB5D400258FA7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		45AB5B8A213DB68000258FA7 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		45AB5B8C213DB6B300258FA7 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		45AB5B8E213DBAFA00258FA7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		79EA897BB93EEFC1C5481ED6 /* Pods_Soundcloud_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundcloud_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		864FD270A39F2E6F60FA2A08 /* Pods_Soundcloud_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundcloud_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9875FCF42745BE4696D1CAA6 /* Pods-Soundcloud TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundcloud TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soundcloud TestTests/Pods-Soundcloud TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE3217CCB5297EA1692A0F0A /* Pods-Soundcloud Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundcloud Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soundcloud Test/Pods-Soundcloud Test.release.xcconfig"; sourceTree = "<group>"; };
+		B5A19AD6E56BF7865C7D5588 /* Pods-Soundcloud TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundcloud TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soundcloud TestUITests/Pods-Soundcloud TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD79016E595CAF99317BF2F /* Pods-Soundcloud Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundcloud Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soundcloud Test/Pods-Soundcloud Test.debug.xcconfig"; sourceTree = "<group>"; };
+		D299692D722744A19B5C2EFC /* Pods-Soundcloud TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soundcloud TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soundcloud TestTests/Pods-Soundcloud TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C805E95BACE3A87E3681C7 /* Pods_Soundcloud_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundcloud_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A3C4B89557F54E9EB7D66B /* Pods_Soundcloud_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABF99AEC0CF2D33ED0561D6 /* Pods_Soundcloud_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB540531A78FB795B715292 /* Pods_Soundcloud_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10650E6C03CDEBFA8F83BCBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864FD270A39F2E6F60FA2A08 /* Pods_Soundcloud_Test.framework */,
+				F0C805E95BACE3A87E3681C7 /* Pods_Soundcloud_TestTests.framework */,
+				79EA897BB93EEFC1C5481ED6 /* Pods_Soundcloud_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		453EEA3620A49B7A005C8E77 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				453EEA5620A49B7C005C8E77 /* Soundcloud TestTests */,
 				453EEA6120A49B7C005C8E77 /* Soundcloud TestUITests */,
 				453EEA4020A49B7A005C8E77 /* Products */,
+				FD72E71A0BD7EEEE9F481F19 /* Pods */,
+				10650E6C03CDEBFA8F83BCBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +133,15 @@
 			isa = PBXGroup;
 			children = (
 				453EEA4220A49B7A005C8E77 /* AppDelegate.swift */,
-				453EEA4420A49B7A005C8E77 /* ViewController.swift */,
+				45AB5B88213DB5D400258FA7 /* SignUpViewController.swift */,
+				45AB5B8A213DB68000258FA7 /* LogInViewController.swift */,
+				45AB5B8C213DB6B300258FA7 /* ResetPasswordViewController.swift */,
+				45AB5B8E213DBAFA00258FA7 /* HomeViewController.swift */,
 				453EEA4620A49B7A005C8E77 /* Main.storyboard */,
 				453EEA4920A49B7C005C8E77 /* Assets.xcassets */,
 				453EEA4B20A49B7C005C8E77 /* LaunchScreen.storyboard */,
 				453EEA4E20A49B7C005C8E77 /* Info.plist */,
+				4530157B213DAE200005C3A0 /* GoogleService-Info.plist */,
 			);
 			path = "Soundcloud Test";
 			sourceTree = "<group>";
@@ -125,6 +164,19 @@
 			path = "Soundcloud TestUITests";
 			sourceTree = "<group>";
 		};
+		FD72E71A0BD7EEEE9F481F19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD79016E595CAF99317BF2F /* Pods-Soundcloud Test.debug.xcconfig */,
+				AE3217CCB5297EA1692A0F0A /* Pods-Soundcloud Test.release.xcconfig */,
+				D299692D722744A19B5C2EFC /* Pods-Soundcloud TestTests.debug.xcconfig */,
+				9875FCF42745BE4696D1CAA6 /* Pods-Soundcloud TestTests.release.xcconfig */,
+				B5A19AD6E56BF7865C7D5588 /* Pods-Soundcloud TestUITests.debug.xcconfig */,
+				131D711024D522CEEE9023B8 /* Pods-Soundcloud TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453EEA6720A49B7C005C8E77 /* Build configuration list for PBXNativeTarget "Soundcloud Test" */;
 			buildPhases = (
+				60E1E2A5EA9F562F3FD3C1C8 /* [CP] Check Pods Manifest.lock */,
 				453EEA3B20A49B7A005C8E77 /* Sources */,
 				453EEA3C20A49B7A005C8E77 /* Frameworks */,
 				453EEA3D20A49B7A005C8E77 /* Resources */,
+				74864480E43DAD78210010B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453EEA6A20A49B7C005C8E77 /* Build configuration list for PBXNativeTarget "Soundcloud TestTests" */;
 			buildPhases = (
+				853F9581ADEFAED35A9C63DD /* [CP] Check Pods Manifest.lock */,
 				453EEA4F20A49B7C005C8E77 /* Sources */,
 				453EEA5020A49B7C005C8E77 /* Frameworks */,
 				453EEA5120A49B7C005C8E77 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 453EEA6D20A49B7C005C8E77 /* Build configuration list for PBXNativeTarget "Soundcloud TestUITests" */;
 			buildPhases = (
+				1D019D28DBF0858440264B03 /* [CP] Check Pods Manifest.lock */,
 				453EEA5A20A49B7C005C8E77 /* Sources */,
 				453EEA5B20A49B7C005C8E77 /* Frameworks */,
 				453EEA5C20A49B7C005C8E77 /* Resources */,
@@ -230,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453EEA4D20A49B7C005C8E77 /* LaunchScreen.storyboard in Resources */,
+				4530157C213DAE200005C3A0 /* GoogleService-Info.plist in Resources */,
 				453EEA4A20A49B7C005C8E77 /* Assets.xcassets in Resources */,
 				453EEA4820A49B7A005C8E77 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +308,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D019D28DBF0858440264B03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soundcloud TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E1E2A5EA9F562F3FD3C1C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soundcloud Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74864480E43DAD78210010B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Soundcloud Test/Pods-Soundcloud Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soundcloud Test/Pods-Soundcloud Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853F9581ADEFAED35A9C63DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soundcloud TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		453EEA3B20A49B7A005C8E77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453EEA4520A49B7A005C8E77 /* ViewController.swift in Sources */,
+				45AB5B8F213DBAFA00258FA7 /* HomeViewController.swift in Sources */,
+				45AB5B89213DB5D400258FA7 /* SignUpViewController.swift in Sources */,
 				453EEA4320A49B7A005C8E77 /* AppDelegate.swift in Sources */,
+				45AB5B8B213DB68000258FA7 /* LogInViewController.swift in Sources */,
+				45AB5B8D213DB6B300258FA7 /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +567,13 @@
 		};
 		453EEA6820A49B7C005C8E77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD79016E595CAF99317BF2F /* Pods-Soundcloud Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J3QG4DAH6;
 				INFOPLIST_FILE = "Soundcloud Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,10 +587,13 @@
 		};
 		453EEA6920A49B7C005C8E77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3217CCB5297EA1692A0F0A /* Pods-Soundcloud Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J3QG4DAH6;
 				INFOPLIST_FILE = "Soundcloud Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +607,7 @@
 		};
 		453EEA6B20A49B7C005C8E77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D299692D722744A19B5C2EFC /* Pods-Soundcloud TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +628,7 @@
 		};
 		453EEA6C20A49B7C005C8E77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9875FCF42745BE4696D1CAA6 /* Pods-Soundcloud TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +649,7 @@
 		};
 		453EEA6E20A49B7C005C8E77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A19AD6E56BF7865C7D5588 /* Pods-Soundcloud TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +669,7 @@
 		};
 		453EEA6F20A49B7C005C8E77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131D711024D522CEEE9023B8 /* Pods-Soundcloud TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
